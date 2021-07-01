@@ -30,7 +30,7 @@ $("#example").DataTable({
 
 In the route handler, import the module and pass a reference to the mongoose model you wish to use as data source.
 
-The DataTables params will get caught in the request body. It should be passed to the run method, which will return a
+The DataTables params will get caught in the request query. It should be passed to the get method, which will return a
 promise.
 
 ```javascript
