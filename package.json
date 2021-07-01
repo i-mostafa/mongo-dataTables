@@ -1,0 +1,29 @@
+{
+  "name": "mongo-datatables",
+  "version": "1.0.0",
+  "description": "a module to connect data tables to mongodb ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-mostafa/mongo-dataTables.git"
+  },
+  "keywords": [
+    "mongodb",
+    "datatables",
+    "mongoose",
+    "query"
+  ],
+  "author": "Islam Mostafa - islam.mostafa.fahmey@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i-mostafa/mongo-dataTables/issues"
+  },
+  "homepage": "https://github.com/i-mostafa/mongo-dataTables#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "mongoose": "^5.13.0"
+  }
+}
