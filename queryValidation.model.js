@@ -16,7 +16,7 @@ queryValidationSchema = Joi.object().keys({
   }),
   columns: Joi.array().items(
     Joi.object({
-      data: Joi.string().required(),
+      data: Joi.string().required().allow(""),
       name: Joi.string().required().allow(""),
       searchable: Joi.boolean().required(),
       orderable: Joi.boolean().required(),
